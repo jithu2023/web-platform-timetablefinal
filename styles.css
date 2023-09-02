@@ -1,0 +1,64 @@
+/* .tablehead {
+  background-color: red ;
+} */
+.table {
+  border-bottom: 2px solid red;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  color: black;
+  background-color: white;
+
+  width: 825px; /* Adjust the image dimensions */
+  height: auto;
+  transform: rotateY(25deg) rotateX(10deg); /* Rotate the image for 3D effect */
+  box-shadow: 10px 10px 20px rgba(5, 5, 5, 0.3);
+  margin-left: 250px;
+}
+body {
+  background-image: url('https://www.colorhexa.com/fed7d7.png');
+  background-size: cover; /* You can adjust this property to control the image size */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+/* .hov:hover {
+  background-color: grey;
+} */
+.hov {
+  background-color: rgb(224, 213, 213);
+}
+.timetable {
+  margin-left: 600px;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* tr:nth-child(odd){
+  background-color: rgb(209, 206, 206); */
+
+.tablehead {
+  background-color: red;
+}
+.profile {
+  margin-left: 900px;
+}
+.student {
+  color: red;
+  margin-left: 1200px;
+  margin-top: -30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.borderless {
+  border: none;
+  padding: 25px;
+}
+table,
+th,
+tr {
+  border-collapse: collapse;
+}
+.courses {
+  color: red;
+  margin-left: 1280px;
+  margin-top: -42px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
